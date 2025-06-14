@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class BasePage {
     protected static WebDriver driver;
@@ -14,6 +15,14 @@ public class BasePage {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public boolean isTextInElementPresent(WebElement element, String text) {
+       return element.getText().contains(text);
+    }
+
+    public boolean isElementPresent(WebElement element) {
+        return element.isDisplayed();
     }
 }
 

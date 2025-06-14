@@ -14,10 +14,10 @@ public class LogInPage extends BasePage {
                 new AjaxElementLocatorFactory(driver, 10), this);
     }
 
-    @FindBy (id = "email")
+    @FindBy(id = "email")
     WebElement inputEmail;
 
-    @FindBy (id = "password")
+    @FindBy(id = "password")
     WebElement inputPassword;
 
     public void fillEmailForm(String email, String password) {
@@ -31,4 +31,21 @@ public class LogInPage extends BasePage {
     public void clickButtonYalla() {
         yallaButton.click();
     }
+
+    @FindBy(xpath = "//div[@class='dialog-container']")
+    WebElement popUpMessage;
+
+
+    public boolean validatePopUpMessage(String text) {
+        return isTextInElementPresent(popUpMessage, text);
+    }
+
+    @FindBy(xpath = "//div[text()=' Password is required ']")
+    WebElement emptyPasswordErrorInline;
+
+    public boolean emptyPasswordErrorInline() {
+        return isElementPresent(emptyPasswordErrorInline);
+    }
 }
+
+
