@@ -41,11 +41,17 @@ public class LogInPage extends BasePage {
     }
 
     @FindBy(xpath = "//div[text()=' Password is required ']")
-    WebElement emptyPasswordErrorInline;
+    public WebElement emptyPasswordErrorInline;
 
-    public boolean emptyPasswordErrorInline() {
-        return isElementPresent(emptyPasswordErrorInline);
+    @FindBy(xpath = "//div[text()=' Email is required ']")
+    public WebElement emptyEmailErrorInline;
+
+    public boolean invalidFieldValueErrorInline(WebElement element) {
+        return isElementPresent(element);
     }
+
+    @FindBy(xpath = "//div[text()=\"It'snot look like email\"]")
+    public WebElement invalidEmailFormatInlineMessage;
 }
 
 
