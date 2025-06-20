@@ -32,14 +32,6 @@ public class LogInPage extends BasePage {
         yallaButton.click();
     }
 
-    @FindBy(xpath = "//div[@class='dialog-container']")
-    WebElement popUpMessage;
-
-
-    public boolean validatePopUpMessage(String text) {
-        return isTextInElementPresent(popUpMessage, text);
-    }
-
     @FindBy(xpath = "//div[text()=' Password is required ']")
     public WebElement emptyPasswordErrorInline;
 

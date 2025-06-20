@@ -30,7 +30,7 @@ public class LogInTests extends ApplicationManager {
     @Test(description = "Positive login using Lombok user model")
     public void loginPositiveTestLombok() {
         UserLombok userLombok = UserLombok.builder()
-                .username("bilbo33_baggins_12345@mail.com")
+                .username("bilbo_baggins_12345@mail.com")
                 .password("Password123!")
                 .build();
         logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
@@ -92,5 +92,18 @@ public class LogInTests extends ApplicationManager {
         logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.validatePopUpMessage("Login or Password incorrect"), "loginNegativeTestWithInvalidPassword");
+    }
+
+    @Test(description = "Negative login test with empty email and password")
+    public void loginNegativeTestEmptyEmailAndPassword() {
+        UserLombok userLombok = UserLombok.builder()
+                .username("")
+                .password("")
+                .build();
+        logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
+        logInPage.clickButtonYalla();
+        Assert.assertTrue(logInPage.invalidFieldValueErrorInline(logInPage.emptyEmailErrorInline), "loginNegativeTestEmptyEmail failed");
+        Assert.assertTrue(logInPage.invalidFieldValueErrorInline(logInPage.emptyPasswordErrorInline),
+                "loginNegativeTestEmptyPassword failed: expected inline error was not displayed");
     }
 }
