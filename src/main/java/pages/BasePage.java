@@ -28,7 +28,11 @@ public abstract class BasePage {
     }
 
     public boolean isElementPresent(WebElement element) {
-        return element.isDisplayed();
+        try {
+            return element.isDisplayed();
+        } catch (RuntimeException e) {
+            return false;
+        }
     }
 
     public boolean elementIsEnabled(WebElement webElement) {

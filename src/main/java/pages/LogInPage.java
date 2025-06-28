@@ -20,7 +20,7 @@ public class LogInPage extends BasePage {
     @FindBy(id = "password")
     WebElement inputPassword;
 
-    public void fillEmailForm(String email, String password) {
+    public void fillLoginForm(String email, String password) {
         inputEmail.sendKeys(email);
         inputPassword.sendKeys(password);
     }

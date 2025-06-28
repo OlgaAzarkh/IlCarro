@@ -3,11 +3,16 @@ package ui_tests;
 import dto.UserLombok;
 import manager.ApplicationManager;
 import org.testng.Assert;
+import org.testng.ITestNGListener;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LogInPage;
 import utils.RandomUtils;
+import utils.TestNGListener;
+
+@Listeners(TestNGListener.class)
 
 public class LogInTests extends ApplicationManager {
     HomePage homePage;
@@ -20,9 +25,9 @@ public class LogInTests extends ApplicationManager {
         logInPage = new LogInPage(getDriver());
     }
 
-    @Test(description = "Positive login with hardcoded credentials")
+    @Test(enabled = false)
     public void loginPositiveTest() {
-        logInPage.fillEmailForm("bilbo_baggins_12345@mail.com", "Password123!");
+        logInPage.fillLoginForm("bilbo_baggins_12345@mail.com", "Password123!");
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.validatePopUpMessage("Logged in success"), "loginPositiveTestLombok failed");
     }
@@ -33,7 +38,8 @@ public class LogInTests extends ApplicationManager {
                 .username("bilbo_baggins_12345@mail.com")
                 .password("Password123!")
                 .build();
-        logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
+        logger.info("start data -- " + userLombok.toString());
+        logInPage.fillLoginForm(userLombok.getUsername(), userLombok.getPassword());
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.validatePopUpMessage("Logged in success"), "loginPositiveTestLombok failed");
     }
@@ -44,7 +50,8 @@ public class LogInTests extends ApplicationManager {
                 .username(RandomUtils.generateEmail(6))
                 .password("Password123!")
                 .build();
-        logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
+        logger.info("start data -- " + userLombok.toString());
+        logInPage.fillLoginForm(userLombok.getUsername(), userLombok.getPassword());
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.validatePopUpMessage("Login or Password incorrect"), "loginPositiveTestLombok failed");
     }
@@ -55,7 +62,8 @@ public class LogInTests extends ApplicationManager {
                 .username("bilbo33_baggins_12345@mail.com")
                 .password("")
                 .build();
-        logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
+        logger.info("start data -- " + userLombok.toString());
+        logInPage.fillLoginForm(userLombok.getUsername(), userLombok.getPassword());
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.invalidFieldValueErrorInline(logInPage.emptyPasswordErrorInline),
                 "loginNegativeTestEmptyPassword failed: expected inline error was not displayed");
@@ -67,7 +75,8 @@ public class LogInTests extends ApplicationManager {
                 .username("")
                 .password("Password123!")
                 .build();
-        logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
+        logger.info("start data -- " + userLombok.toString());
+        logInPage.fillLoginForm(userLombok.getUsername(), userLombok.getPassword());
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.invalidFieldValueErrorInline(logInPage.emptyEmailErrorInline), "loginNegativeTestEmptyEmail failed");
     }
@@ -78,7 +87,8 @@ public class LogInTests extends ApplicationManager {
                 .username(RandomUtils.generateString(6))
                 .password("Password123!")
                 .build();
-        logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
+        logger.info("start data -- " + userLombok.toString());
+        logInPage.fillLoginForm(userLombok.getUsername(), userLombok.getPassword());
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.invalidFieldValueErrorInline(logInPage.invalidEmailFormatInlineMessage),"loginNegativeTestWithInvalidEmail failed");
     }
@@ -89,7 +99,8 @@ public class LogInTests extends ApplicationManager {
                 .username("bilbo33_baggins_12345@mail.com")
                 .password("???")
                 .build();
-        logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
+        logger.info("start data -- " + userLombok.toString());
+        logInPage.fillLoginForm(userLombok.getUsername(), userLombok.getPassword());
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.validatePopUpMessage("Login or Password incorrect"), "loginNegativeTestWithInvalidPassword");
     }
@@ -100,7 +111,8 @@ public class LogInTests extends ApplicationManager {
                 .username("")
                 .password("")
                 .build();
-        logInPage.fillEmailForm(userLombok.getUsername(), userLombok.getPassword());
+        logger.info("start data -- " + userLombok.toString());
+        logInPage.fillLoginForm(userLombok.getUsername(), userLombok.getPassword());
         logInPage.clickButtonYalla();
         Assert.assertTrue(logInPage.invalidFieldValueErrorInline(logInPage.emptyEmailErrorInline), "loginNegativeTestEmptyEmail failed");
         Assert.assertTrue(logInPage.invalidFieldValueErrorInline(logInPage.emptyPasswordErrorInline),
