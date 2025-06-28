@@ -1,0 +1,16 @@
+20:50:19.135 [Test worker] INFO  manager.ApplicationManager - Start testing 
+20:50:22.113 [Test worker] INFO  utils.TestNGListener - start test -- LogInTests.loginNegativeTestEmptyEmail()[pri:0, instance:ui_tests.LogInTests@16414e40]
+20:50:22.290 [Test worker] INFO  manager.ApplicationManager - Start testing 
+20:50:24.181 [Test worker] INFO  utils.TestNGListener - start test -- LogInTests.loginNegativeTestEmptyEmailAndPassword()[pri:0, instance:ui_tests.LogInTests@16414e40]
+20:50:24.288 [Test worker] INFO  manager.ApplicationManager - Start testing 
+20:50:26.144 [Test worker] INFO  utils.TestNGListener - start test -- LogInTests.loginNegativeTestEmptyPassword()[pri:0, instance:ui_tests.LogInTests@16414e40]
+20:50:26.330 [Test worker] INFO  manager.ApplicationManager - Start testing 
+20:50:28.128 [Test worker] INFO  utils.TestNGListener - start test -- LogInTests.loginNegativeTestUnregUser()[pri:0, instance:ui_tests.LogInTests@16414e40]
+20:50:29.377 [Test worker] INFO  manager.ApplicationManager - Start testing 
+20:50:31.154 [Test worker] INFO  utils.TestNGListener - start test -- LogInTests.loginNegativeTestWithInvalidEmail()[pri:0, instance:ui_tests.LogInTests@16414e40]
+20:50:31.297 [Test worker] INFO  manager.ApplicationManager - Start testing 
+20:50:33.022 [Test worker] INFO  utils.TestNGListener - start test -- LogInTests.loginNegativeTestWithInvalidPassword()[pri:0, instance:ui_tests.LogInTests@16414e40]
+20:50:34.217 [Test worker] INFO  manager.ApplicationManager - Start testing 
+20:50:37.143 [Test worker] INFO  utils.TestNGListener - start test -- LogInTests.loginPositiveTest()[pri:0, instance:ui_tests.LogInTests@16414e40]
+20:50:38.114 [Test worker] INFO  manager.ApplicationManager - Start testing 
+20:50:40.847 [Test worker] INFO  utils.TestNGListener - start test -- LogInTests.loginPositiveTestLombok()[pri:0, instance:ui_tests.LogInTests@16414e40]

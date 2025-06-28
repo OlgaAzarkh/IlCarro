@@ -1,0 +1,9 @@
+22:19:43.336 [Test worker] INFO  utils.TestNGListener - start testing -- Tue Jun 24 22:19:43 CEST 2025==========
+22:19:46.034 [Test worker] INFO  utils.WDListener - open page -->https://ilcarro.web.app/search
+22:19:46.122 [Test worker] INFO  utils.WDListener - click on the element -->a
+22:19:46.125 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=bilbo_baggins_12345@mail.com, password=Password123!, firstName=null, lastName=null)
+22:19:46.230 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@5f117b3d
+22:19:46.278 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@35f639fa
+22:19:46.324 [Test worker] INFO  utils.WDListener - click on the element -->button
+22:19:47.440 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginPositiveTestLombok()[pri:0, instance:ui_tests.LogInTests@db57326]
+22:19:47.442 [Test worker] INFO  utils.TestNGListener - stop testing -- Tue Jun 24 22:19:47 CEST 2025==========

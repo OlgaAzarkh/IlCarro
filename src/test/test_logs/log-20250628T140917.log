@@ -1,0 +1,84 @@
+14:09:20.207 [Test worker] INFO  utils.WDListener - open page -->https://ilcarro.web.app/search
+14:09:20.224 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Log in ']
+14:09:20.289 [Test worker] INFO  utils.WDListener - click on the element -->a
+14:09:20.294 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: email
+14:09:20.381 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@1174a305
+14:09:20.384 [Test worker] INFO  utils.WDListener - use sendKeys input---> [bilbo33_baggins_12345@mail.com]
+14:09:20.384 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: password
+14:09:20.437 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@5aaaa446
+14:09:20.439 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Password123!]
+14:09:20.439 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Let the car work ']
+14:09:20.487 [Test worker] INFO  utils.WDListener - click on the element -->a
+14:09:20.491 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: pickUpPlace
+14:09:20.524 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@5a237731
+14:09:20.526 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Haifa]
+14:09:20.526 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: make
+14:09:20.558 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@212dfd39
+14:09:20.561 [Test worker] INFO  utils.WDListener - use sendKeys input---> [4534]
+14:09:20.561 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: model
+14:09:20.592 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@476ee5b3
+14:09:20.595 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Astra]
+14:09:20.595 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: year
+14:09:20.623 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@7915bca3
+14:09:20.626 [Test worker] INFO  utils.WDListener - use sendKeys input---> [2025]
+14:09:20.626 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+14:09:20.661 [Test worker] INFO  utils.WDListener - use sendKeys  select-->[Ljava.lang.CharSequence;@65c33b92
+14:09:20.663 [Test worker] INFO  utils.WDListener - use sendKeys select---> [Diesel]
+14:09:20.664 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+14:09:20.674 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+14:09:20.685 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+14:09:20.696 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+14:09:20.718 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: class
+14:09:20.748 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@60f70249
+14:09:20.750 [Test worker] INFO  utils.WDListener - use sendKeys input---> [economy]
+14:09:20.750 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: serialNumber
+14:09:20.781 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@3c5dbdf8
+14:09:20.784 [Test worker] INFO  utils.WDListener - use sendKeys input---> [b6im0x]
+14:09:20.784 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: price
+14:09:20.814 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@18d910b3
+14:09:20.816 [Test worker] INFO  utils.WDListener - use sendKeys input---> [25.5]
+14:09:20.816 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //input[@type='file']
+14:09:20.850 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@53e800f9
+14:09:20.853 [Test worker] INFO  utils.WDListener - use sendKeys input---> [/Users/olgaazarkh/IdeaProjects/ilCarro/src/test/resources/photos/IMG_0467.PNG]
+14:09:20.853 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //button[@type='submit']
+14:09:20.888 [Test worker] INFO  utils.WDListener - click on the element -->button
+14:09:20.888 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:20.896 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:21.156 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:21.417 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:21.677 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:21.941 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:22.212 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:22.481 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:22.747 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:23.012 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:23.290 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:23.561 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:23.832 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:24.101 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:24.374 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:24.643 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:24.913 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:25.187 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:25.458 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:25.729 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:25.991 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:26.257 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:26.525 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:26.795 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:27.065 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:27.334 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:27.593 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:27.862 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:28.132 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:28.400 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:28.665 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:28.936 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:29.198 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:29.461 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:29.721 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:29.990 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:30.252 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:30.518 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:30.779 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']
+14:09:31.035 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Number of seats is required ']

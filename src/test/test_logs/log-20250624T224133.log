@@ -1,0 +1,21 @@
+22:41:33.976 [Test worker] INFO  utils.TestNGListener - start testing -- Tue Jun 24 22:41:33 CEST 2025==========
+22:41:36.184 [Test worker] INFO  utils.WDListener - open page -->https://ilcarro.web.app/search
+22:41:36.194 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Log in ']
+22:41:36.251 [Test worker] INFO  utils.WDListener - click on the element -->a
+22:41:36.255 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=hm85ur@gmail.com, password=Password123!, firstName=null, lastName=null)
+22:41:36.255 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: email
+22:41:36.353 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@6b69761b
+22:41:36.356 [Test worker] INFO  utils.WDListener - use sendKeys input---> [hm85ur@gmail.com]
+22:41:36.356 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: password
+22:41:36.398 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@78010562
+22:41:36.401 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Password123!]
+22:41:36.401 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //button[text()='Y’alla!']
+22:41:36.441 [Test worker] INFO  utils.WDListener - click on the element -->button
+22:41:36.441 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class='dialog-container']
+22:41:36.448 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class='dialog-container']
+22:41:36.706 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class='dialog-container']
+22:41:36.972 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class='dialog-container']
+22:41:37.256 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class='dialog-container']
+22:41:37.529 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class='dialog-container']
+22:41:37.551 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginNegativeTestUnregUser()[pri:0, instance:ui_tests.LogInTests@db57326]
+22:41:37.553 [Test worker] INFO  utils.TestNGListener - stop testing -- Tue Jun 24 22:41:37 CEST 2025==========

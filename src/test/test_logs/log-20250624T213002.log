@@ -1,0 +1,23 @@
+21:30:02.279 [Test worker] INFO  utils.TestNGListener - start testing -- Tue Jun 24 21:30:02 CEST 2025==========
+21:30:02.292 [Test worker] INFO  manager.ApplicationManager - Start testing 
+21:30:04.689 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=, password=Password123!, firstName=null, lastName=null)
+21:30:04.833 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginNegativeTestEmptyEmail()[pri:0, instance:ui_tests.LogInTests@db57326]
+21:30:04.834 [Test worker] INFO  manager.ApplicationManager - Start testing 
+21:30:06.727 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=, password=, firstName=null, lastName=null)
+21:30:06.834 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginNegativeTestEmptyEmailAndPassword()[pri:0, instance:ui_tests.LogInTests@db57326]
+21:30:06.835 [Test worker] INFO  manager.ApplicationManager - Start testing 
+21:30:08.933 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=bilbo33_baggins_12345@mail.com, password=, firstName=null, lastName=null)
+21:30:09.108 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginNegativeTestEmptyPassword()[pri:0, instance:ui_tests.LogInTests@db57326]
+21:30:09.109 [Test worker] INFO  manager.ApplicationManager - Start testing 
+21:30:11.093 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=rarp1g@gmail.com, password=Password123!, firstName=null, lastName=null)
+21:30:12.335 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginNegativeTestUnregUser()[pri:0, instance:ui_tests.LogInTests@db57326]
+21:30:12.336 [Test worker] INFO  manager.ApplicationManager - Start testing 
+21:30:14.566 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=lvr61l, password=Password123!, firstName=null, lastName=null)
+21:30:14.708 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginNegativeTestWithInvalidEmail()[pri:0, instance:ui_tests.LogInTests@db57326]
+21:30:14.709 [Test worker] INFO  manager.ApplicationManager - Start testing 
+21:30:16.964 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=bilbo33_baggins_12345@mail.com, password=???, firstName=null, lastName=null)
+21:30:18.190 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginNegativeTestWithInvalidPassword()[pri:0, instance:ui_tests.LogInTests@db57326]
+21:30:18.192 [Test worker] INFO  manager.ApplicationManager - Start testing 
+21:30:22.564 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=bilbo_baggins_12345@mail.com, password=Password123!, firstName=null, lastName=null)
+21:30:23.791 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginPositiveTestLombok()[pri:0, instance:ui_tests.LogInTests@db57326]
+21:30:23.793 [Test worker] INFO  utils.TestNGListener - stop testing -- Tue Jun 24 21:30:23 CEST 2025==========

@@ -1,0 +1,47 @@
+18:19:25.584 [Test worker] INFO  utils.WDListener - open page -->https://ilcarro.web.app/search
+18:19:25.594 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Log in ']
+18:19:25.650 [Test worker] INFO  utils.WDListener - click on the element -->a
+18:19:25.652 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: email
+18:19:25.750 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@19ee1ae6
+18:19:25.758 [Test worker] INFO  utils.WDListener - use sendKeys input---> [bilbo33_baggins_12345@mail.com]
+18:19:25.758 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: password
+18:19:25.804 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@158f4cfe
+18:19:25.807 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Password123!]
+18:19:25.807 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Let the car work ']
+18:19:25.855 [Test worker] INFO  utils.WDListener - click on the element -->a
+18:19:25.858 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: pickUpPlace
+18:19:25.890 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@6f1a80fb
+18:19:25.892 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Haifa]
+18:19:25.892 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //button[@class='dismissButton']
+18:19:25.900 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //button[@class='dismissButton']
+18:19:26.156 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //button[@class='dismissButton']
+18:19:26.210 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: make
+18:19:26.242 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@65c33b92
+18:19:26.245 [Test worker] INFO  utils.WDListener - use sendKeys input---> []
+18:19:26.245 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: model
+18:19:26.278 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@1ac4ccad
+18:19:26.280 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Astra]
+18:19:26.280 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: year
+18:19:26.314 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@5d5c04f9
+18:19:26.317 [Test worker] INFO  utils.WDListener - use sendKeys input---> [2025]
+18:19:26.317 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+18:19:26.330 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+18:19:26.339 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+18:19:26.349 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+18:19:26.388 [Test worker] INFO  utils.WDListener - click on the element -->option
+18:19:26.389 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: seats
+18:19:26.418 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@3ed7821
+18:19:26.422 [Test worker] INFO  utils.WDListener - use sendKeys input---> [4]
+18:19:26.422 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: class
+18:19:26.457 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@7fe82967
+18:19:26.459 [Test worker] INFO  utils.WDListener - use sendKeys input---> [economy]
+18:19:26.459 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: serialNumber
+18:19:26.490 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@599e4d41
+18:19:26.492 [Test worker] INFO  utils.WDListener - use sendKeys input---> [p2b7n6]
+18:19:26.493 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: price
+18:19:26.525 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@443effcb
+18:19:26.529 [Test worker] INFO  utils.WDListener - use sendKeys input---> [25.5]
+18:19:26.529 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //input[@type='file']
+18:19:26.563 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@437486cd
+18:19:26.565 [Test worker] INFO  utils.WDListener - use sendKeys input---> [/Users/olgaazarkh/IdeaProjects/ilCarro/src/test/resources/photos/IMG_0467.PNG]
+18:19:26.565 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //button[@type='submit'

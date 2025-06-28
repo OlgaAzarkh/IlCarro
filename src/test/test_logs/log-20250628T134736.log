@@ -1,0 +1,88 @@
+13:47:38.922 [Test worker] INFO  utils.WDListener - open page -->https://ilcarro.web.app/search
+13:47:38.933 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Log in ']
+13:47:38.990 [Test worker] INFO  utils.WDListener - click on the element -->a
+13:47:38.993 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: email
+13:47:39.085 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@5f117b3d
+13:47:39.087 [Test worker] INFO  utils.WDListener - use sendKeys input---> [bilbo33_baggins_12345@mail.com]
+13:47:39.088 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: password
+13:47:39.134 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@35f639fa
+13:47:39.137 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Password123!]
+13:47:39.137 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Let the car work ']
+13:47:39.186 [Test worker] INFO  utils.WDListener - click on the element -->a
+13:47:39.189 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: pickUpPlace
+13:47:39.222 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@2016f509
+13:47:39.225 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Haifa]
+13:47:39.225 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: make
+13:47:39.255 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@10afe71a
+13:47:39.257 [Test worker] INFO  utils.WDListener - use sendKeys input---> [4534]
+13:47:39.257 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: model
+13:47:39.288 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@3b4d50b
+13:47:39.290 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Astra]
+13:47:39.290 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: year
+13:47:39.319 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@36cc9385
+13:47:39.322 [Test worker] INFO  utils.WDListener - use sendKeys input---> [2025]
+13:47:39.322 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+13:47:39.349 [Test worker] INFO  utils.WDListener - use sendKeys  select-->[Ljava.lang.CharSequence;@7661b5a
+13:47:39.352 [Test worker] INFO  utils.WDListener - use sendKeys select---> []
+13:47:39.353 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+13:47:39.365 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+13:47:39.380 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+13:47:39.390 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: fuel
+13:47:39.427 [Test worker] INFO  utils.WDListener - click on the element -->option
+13:47:39.427 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: seats
+13:47:39.454 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@2643d762
+13:47:39.457 [Test worker] INFO  utils.WDListener - use sendKeys input---> [4]
+13:47:39.457 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: class
+13:47:39.489 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@623dcf2a
+13:47:39.491 [Test worker] INFO  utils.WDListener - use sendKeys input---> [economy]
+13:47:39.492 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: serialNumber
+13:47:39.522 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@5679e96b
+13:47:39.525 [Test worker] INFO  utils.WDListener - use sendKeys input---> [lkf9mv]
+13:47:39.525 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: price
+13:47:39.555 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@7cbeac65
+13:47:39.557 [Test worker] INFO  utils.WDListener - use sendKeys input---> [25.5]
+13:47:39.558 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //input[@type='file']
+13:47:39.588 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@56da7487
+13:47:39.590 [Test worker] INFO  utils.WDListener - use sendKeys input---> [/Users/olgaazarkh/IdeaProjects/ilCarro/src/test/resources/photos/IMG_0467.PNG]
+13:47:39.590 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //button[@type='submit']
+13:47:39.627 [Test worker] INFO  utils.WDListener - click on the element -->button
+13:47:39.627 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:39.635 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:39.892 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:40.154 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:40.430 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:40.700 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:40.962 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:41.229 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:41.498 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:41.768 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:42.047 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:42.315 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:42.583 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:42.854 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:43.122 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:43.393 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:43.657 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:43.924 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:44.187 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:44.451 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:44.727 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:44.997 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:45.263 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:45.537 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:45.822 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:46.093 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:46.354 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:46.618 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:46.880 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:47.146 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:47.413 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:47.679 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:47.942 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:48.202 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:48.470 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:48.731 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:49.001 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:49.258 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:49.524 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']
+13:47:49.793 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[text()=' Wrong year ']

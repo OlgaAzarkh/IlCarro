@@ -1,0 +1,7 @@
+21:33:43.325 [Test worker] INFO  utils.WDListener - open page -->https://ilcarro.web.app/search
+21:33:43.332 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: city
+21:33:43.439 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@6629ad09
+21:33:43.442 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Haifa]
+21:33:43.443 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: city
+21:33:43.471 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@bbf9e07
+21:33:43.483 [Test worker] INFO  utils.WDListener - use sendKeys input---> [7/25/10 / 8/25/20]

@@ -1,0 +1,5 @@
+21:23:34.795 [Test worker] INFO  utils.TestNGListener - start testing -- Tue Jun 24 21:23:34 CEST 2025==========
+21:23:34.808 [Test worker] INFO  manager.ApplicationManager - Start testing 
+21:23:38.708 [Test worker] INFO  manager.ApplicationManager - start data -- UserLombok(username=bilbo_baggins_12345@mail.com, password=Password123!, firstName=null, lastName=null)
+21:23:39.686 [Test worker] INFO  utils.TestNGListener - success test -- LogInTests.loginPositiveTestLombok()[pri:0, instance:ui_tests.LogInTests@16414e40]
+21:23:39.688 [Test worker] INFO  utils.TestNGListener - stop testing -- Tue Jun 24 21:23:39 CEST 2025==========

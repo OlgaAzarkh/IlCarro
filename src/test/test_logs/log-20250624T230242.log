@@ -1,0 +1,18 @@
+23:02:45.288 [Test worker] INFO  utils.WDListener - open page -->https://ilcarro.web.app/search
+23:02:45.300 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Log in ']
+23:02:45.362 [Test worker] INFO  utils.WDListener - click on the element -->a
+23:02:45.363 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: email
+23:02:45.445 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@18460128
+23:02:45.447 [Test worker] INFO  utils.WDListener - use sendKeys input---> [bilbo33_baggins_12345@mail.com]
+23:02:45.447 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: password
+23:02:45.510 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@6ec7bce0
+23:02:45.513 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Password123!]
+23:02:45.513 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //a[text()=' Let the car work ']
+23:02:45.565 [Test worker] INFO  utils.WDListener - click on the element -->a
+23:02:45.568 [Test worker] INFO  utils.WDListener - find element with locator --> By.id: pickUpPlace
+23:02:45.600 [Test worker] INFO  utils.WDListener - use sendKeys  input-->[Ljava.lang.CharSequence;@36bf84e
+23:02:45.602 [Test worker] INFO  utils.WDListener - use sendKeys input---> [Haifa]
+23:02:45.602 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class ='pac-container hdpi']//button
+23:02:45.610 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class ='pac-container hdpi']//button
+23:02:45.869 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class ='pac-container hdpi']//button
+23:02:46.132 [Test worker] INFO  utils.WDListener - find element with locator --> By.xpath: //div[@class ='pac-container hdpi']//button
